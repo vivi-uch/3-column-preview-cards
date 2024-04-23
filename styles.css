@@ -1,0 +1,114 @@
+body{
+    font-size: 15px;
+    padding-top: 100px;
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexand Deca";
+    font-weight: 400;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* container */
+.container{
+    display: flex;
+    width: 700px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+/* boxes */
+.box{
+    padding: 30px 25px 30px 30px;
+}
+
+/* sedans-box */
+#box1{
+    background-color: hsl(31, 77%, 52%) ;
+}
+/* suvs-box */
+#box2{
+    background-color: hsl(184, 100%, 22%) ;
+}
+/* luxury-box */
+#box3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* text-styles */
+h1{
+    color:  hsl(0, 0%, 95%);
+    font-family: "Big shoulders display";
+    font-weight: 700;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+}
+
+/* button-style */
+button{
+    background-color:hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+}
+#box1 button:hover, #box2 button:hover, #box3 button:hover{
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+/* sedans-button */
+#box1 button{
+    color: hsl(31, 77%, 52%);
+}
+/* suvs-button */
+#box2 button{
+    color: hsl(184, 100%, 22%);
+}
+/* luxury-button */
+#box3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+/* attribution */
+.attribution { 
+    font-size: 14px; 
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+    
+    body{
+        padding-top: 50px;
+    }
+    .container {
+        width: 100%;
+        flex-direction: column; 
+        height: auto; 
+        border-radius: 0%;
+        margin-bottom: 25px;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
+        padding: 30px;
+        /* padding: 15px 13px 15px 15px; */
+        /* margin-bottom: 5px; */
+    }
+    button{
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+}
