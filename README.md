@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot14.jpg)
+![](./images/screenshot14.png)
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/vivi-uch/3-column-preview-cards
+- Live Site URL: https://vivi-uch.github.io/3-column-preview-cards/
 
 ## My process
 
